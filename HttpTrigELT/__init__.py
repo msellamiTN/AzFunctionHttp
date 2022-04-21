@@ -32,7 +32,7 @@ config = {
 
 # Créé une url
 def url_builder(city_id,city_name,country):
-    user_api = '986c1f2c3c5dc15f50d6c366bc3fc05f'  # Obtain yours form: http://openweathermap.org/
+    user_api = 'Your API Key'  # Obtain yours form: http://openweathermap.org/
     unit = 'metric'  # For Fahrenheit use imperial, for Celsius use metric, and the default is Kelvin.
     if(city_name!=""):
         api = 'http://api.openweathermap.org/data/2.5/weather?q=' # "http://api.openweathermap.org/data/2.5/weather?q=Tunis,fr
